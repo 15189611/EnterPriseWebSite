@@ -11,6 +11,6 @@ public class HelloTest {
     @ResponseBody
     @RequestMapping("test.do")
     public String test(){
-        return "{\"code\":\"0000\",\"msg\":\"成功\"}";
+        return "{\"code\":\"0000\",\"msg\":\"success\"}";
     }
 }

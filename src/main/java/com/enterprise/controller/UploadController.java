@@ -34,6 +34,7 @@ public class UploadController {
         // 判断文件是否为空，空则返回失败页面
         if (file.isEmpty()) {
             msg = "failed";
+            return msg;
         }
         // 获取文件存储路径（绝对路径）
 
